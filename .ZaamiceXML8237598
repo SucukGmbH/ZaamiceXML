@@ -104,7 +104,7 @@
 
 
 <item>
-<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B] More Servers[/B] [/COLOR][COLOR lightblue][I][Updated Daily][/I][/COLOR]</title>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]⇨[/B] [/COLOR][COLOR lightblue][I][Updated Daily][/I][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 <regex>
@@ -112,7 +112,7 @@
 <listrepeat><![CDATA[
  <title>Server [makelist2.param1]</title>
  <link>$doregex[makelist]</link>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+ <thumbnail>http://img5.fotos-hochladen.net/uploads/onlineicon2la4skjy17.png</thumbnail>
  ]]></listrepeat>
 <expres>Server:"(.*?)" URL="(.*?)";</expres>
 <page>http://adryanlist.org/adryan/servers.txt</page>
@@ -124,7 +124,7 @@
 <listrepeat><![CDATA[
  <title>[makelist.param1]</title>
  <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR lightblue]AdryanList[/COLOR] [makelist.param1] [COLOR lightslategray](server [makelist2.param1])[/COLOR] </link>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+ <thumbnail>http://img5.fotos-hochladen.net/uploads/onlineicon2la4skjy17.png</thumbnail>
  ]]></listrepeat>
 <expres>#EXTINF:-1,(.*?)\n(.*)</expres>
 <page>[makelist2.param2]</page>
