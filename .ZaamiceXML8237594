@@ -104,7 +104,7 @@
 
 
 <item>
-<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]⇨[/B] [/COLOR][COLOR lightblue][I][Updated Daily][/I][/COLOR]</title>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]Continue[/B] [/COLOR][COLOR lightblue][I][Updated Daily][/I][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 <regex>
